@@ -1,0 +1,11 @@
+prefix=/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

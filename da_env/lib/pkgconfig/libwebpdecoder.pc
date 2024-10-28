@@ -1,0 +1,11 @@
+prefix=/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libwebpdecoder
+Description: Library for the WebP graphics format (decode only)
+Version: 1.3.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lwebpdecoder
+Libs.private:   

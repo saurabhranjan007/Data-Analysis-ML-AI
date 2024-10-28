@@ -1,0 +1,11 @@
+prefix=/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env
+exec_prefix=/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlicommon
+URL: https://github.com/google/brotli
+Description: Brotli common dictionary library
+Version: 1.0.9
+Libs: -L${libdir} -lbrotlicommon
+Cflags: -I${includedir}

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env/bin/python -m PyQt5.pyrcc_main ${1+"$@"}
