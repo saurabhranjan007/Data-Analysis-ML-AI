@@ -1,9 +1,0 @@
-Name: libecpg
-Description: PostgreSQL libecpg library
-Url: http://www.postgresql.org/
-Version: 12.17
-Requires: 
-Requires.private: libpq libpgtypes
-Cflags: -I/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env/include
-Libs: -L/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env/lib -lecpg
-Libs.private: -L/Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/SecSix_Data_Analysis/da_env/lib -lpgcommon -lpgport -lm
