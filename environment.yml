@@ -1,4 +1,5 @@
-name: /Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/Data-Analysis-ML-AI/da_env
+# name: /Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/Data-Analysis-ML-AI/da_env
+name: DataAnalysis
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
@@ -158,4 +159,5 @@ dependencies:
   - zeromq=4.3.5=h313beb8_0
   - zlib=1.2.13=h18a0788_1
   - zstd=1.5.6=hfb09047_0
-prefix: /Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/Data-Analysis-ML-AI/da_env
+prefix: DataAnalysis
+# prefix: /Users/saurabhranjan/Desktop/Codebase/ML-AI-Udemy/Data-Analysis-ML-AI/da_env
